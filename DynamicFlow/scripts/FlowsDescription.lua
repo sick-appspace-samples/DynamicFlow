@@ -1,5 +1,5 @@
 
---loading a flow from the flow-file  in the resources 
+--loading a flow from the flow-file  in the resources
 handle = Flow.create()
 assert(handle)
 assert(handle:load("resources/ControlFlow.cflow"))
